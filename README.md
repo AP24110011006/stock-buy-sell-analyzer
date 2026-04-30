@@ -58,13 +58,17 @@ Sample Input:
 7 1 5 3 6 4
 
 Sample Output:
+
 --- Results ---
+
 Greedy Profit: 7
 Buy on day 1 at price 1, Sell on day 2 at price 5
+
 Buy on day 3 at price 3, Sell on day 4 at price 6
 
+
 DP Profit: 7
-🔍 Explanation
+ Explanation
 The program identifies profitable buy/sell points
 Greedy captures every increasing sequence
 DP validates the maximum achievable profit
