@@ -9,23 +9,26 @@ Dynamic Programming (DP) (optimal and flexible)
 
 This project demonstrates how different algorithmic strategies solve the same problem and compares their efficiency and results.
 
- Objectives
+ Objectives:
 Analyze stock prices to maximize profit
 Implement and compare Greedy and DP approaches
 Display buy/sell transactions clearly
 Understand time complexity differences
- Technologies Used
+
+Technologies Used:
 Python 3
 VS Code (or any IDE)
 Git & GitHub
-📂 Project Structure
+
+📂 Project Structure:
 stock-buy-sell-analyzer/
 │── main.py        # Entry point of the program
 │── greedy.py      # Greedy algorithm implementation
 │── dp.py          # Dynamic Programming implementation
 │── utils.py       # Helper functions (printing transactions)
 │── README.md      # Project documentation
- Algorithms Used
+
+ Algorithms Used:
  1. Greedy Algorithm
 Strategy: Buy when price increases the next day
 Makes local optimal decisions
@@ -44,12 +47,16 @@ How to Run the Project:
 Step 1: Clone Repository
 git clone https://github.com/your-username/stock-buy-sell-analyzer.git
 cd stock-buy-sell-analyzer
+
 Step 2: Run Program
 python main.py
+
 Step 3: Enter Input
 Enter stock prices (space separated): 7 1 5 3 6 4
+
 Sample Input:
 7 1 5 3 6 4
+
 Sample Output:
 --- Results ---
 Greedy Profit: 7
